@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head') %>
+    <title>Register</title>
+<body>
+    <%- include('./partials/nav') %>
+    <main class="row" id="main">
+        <div class="offset-md-3 offset-lg-3 offset-sm-1 col-lg-6 col-md-6 col-sm-10 p-2">
+            <form action="/" method="POST">
+                <h3 align="center">Sign Up</h3>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Username" class="form-control" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" placeholder="First Name" class="form-control" id="first_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" placeholder="Last Name" class="form-control" id="last_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="text" name="password" placeholder="Password" class="form-control" id="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm_password">Password (Confirm)</label>
+                    <input type="text" name="confirm_password" placeholder="Confirm Password" class="form-control" id="confirm_password" required>
+                </div>
+                <button type="submit" class="btn btn-primary p-2 mt-2">Sign Up</button>
+            </form>
+        </div>
+    </main>
+    <%- include('./partials/footer') %>
+</body>
+</html>

@@ -1,0 +1,229 @@
+img.logo{
+  width: auto;
+  margin-right: 20px;
+  float: left;
+  border-right: 5px solid;
+  border-color: black;
+  
+}
+
+div.title{
+  text-align: left;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.header{
+  min-width: 155px;
+  background-color: #ecf5fd;
+  margin-bottom: 5px;
+}
+
+#featured, #new{
+  text-align: center;
+}
+
+div.card{
+  border: 2px solid;
+  border-color: black;
+  align-content: center;
+}
+
+div.card-body{
+  text-align: center;
+}
+
+#order-status{
+  color: black;
+}
+
+#contact{
+  color: black;
+}
+
+.btn-cart{
+  background-color: #f4ca64;
+  height: 35px;
+  color: black;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: black;
+}
+
+@media only screen and (max-width: 480px) {
+  .header{
+      min-width: 155px;
+      background-color: #ecf5fd;
+      margin-bottom: 5px;
+  }
+  
+  img.logo{
+      width: auto;
+      margin-right: 20px;
+      float: left;
+      border-right: 5px solid;
+      border-color: black;
+  }
+  
+  div.title{
+      text-align: left;
+      margin-top: 70px;
+      margin-bottom: 20px;
+  }
+  
+  #featured, #new{
+      text-align: center;
+  }
+  
+  div.card{
+      border: 2px solid;
+      border-color: black;
+      align-content: center;
+  }
+  
+  div.card-body{
+      text-align: center;
+  }
+  
+  #order-status{
+      color: black;
+  }
+  
+  #contact{
+      color: black;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .header{
+      min-width: 155px;
+      background-color: #ecf5fd;
+      margin-bottom: 5px;
+  }
+  
+  img.logo{
+      width: auto;
+      margin-right: 20px;
+      float: left;
+      border-right: 5px solid;
+      border-color: black;
+  }
+  
+  div.title{
+      text-align: left;
+      margin-top: 70px;
+      margin-bottom: 20px;
+  }
+  
+  #featured, #new{
+      text-align: center;
+  }
+  
+  div.card{
+      border: 2px solid;
+      border-color: black;
+      align-content: center;
+  }
+  
+  div.card-body{
+      text-align: center;
+  }
+  
+  #order-status{
+      color: black;
+  }
+  
+  #contact{
+      color: black;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .header{
+      min-width: 155px;
+      background-color: #ecf5fd;
+      margin-bottom: 5px;
+  }
+  
+  img.logo{
+      width: auto;
+      margin-right: 20px;
+      float: left;
+      border-right: 5px solid;
+      border-color: black;
+  }
+  
+  div.title{
+      text-align: left;
+      margin-top: 70px;
+      margin-bottom: 20px;
+  }
+  
+  #featured, #new{
+      text-align: center;
+  }
+  
+  div.card{
+      border: 2px solid;
+      border-color: black;
+      align-content: center;
+  }
+  
+  div.card-body{
+      text-align: center;
+  }
+  
+  #order-status{
+      color: black;
+  }
+  
+  #contact{
+      color: black;
+  }
+}
+
+/* Table Styles */
+.cart-table {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cart-table th, .cart-table td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.cart-table th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.cart-table td {
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-table .product {
+  width: 40%;
+}
+
+.cart-table .price, .cart-table .quantity, .cart-table .subtotal {
+  width: 15%;
+}
+
+.cart-table .action {
+  width: 10%;
+}
+
+.cart-table input {
+  width: 50px;
+  text-align: center;
+}
+
+.cart-table .subtotal {
+  font-weight: bold;
+}
+

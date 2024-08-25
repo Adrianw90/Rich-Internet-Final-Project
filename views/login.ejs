@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head') %>
+    <title>Login</title>
+<body>
+    <%- include('./partials/nav') %>
+    <main class="row" id="main">
+        <div class="offset-md-3 offset-lg-3 offset-sm-1 col-lg-6 col-md-6 col-sm-10 mt-5">
+            <form action="/userprofile" method="POST">
+                <div class="mb-3 row">
+                    <label for="username" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                    <input type="text" class="form-control" id="username" name="username" placeholder="email@example.com">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="password" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                    <input type="password" class="form-control" id="password">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    <%- include('./partials/footer') %>
+</body>
+</html>

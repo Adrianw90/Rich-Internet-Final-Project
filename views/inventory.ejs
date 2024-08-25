@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head') %>
+    <script src="/public/js/inv.js"></script>
+    <title>Inventory</title>
+<body>
+    <%- include('./partials/nav') %>
+    <main class="row">
+        <div class="col-4">
+          <h3>Inventory</h3>
+          <ul id="inventory-list">
+            <!-- Inventory items will be dynamically added here -->
+          </ul>
+        <form id="add-inventory-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter product name">
+            </div>
+            <div class="form-group">
+              <label for="quantity">Quantity</label>
+              <input type="number" class="form-control" id="quantity" placeholder="Enter product quantity">
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+        <form id="delete-inventory-form">
+            <div class="form-group">
+              <label for="delete-id">ID</label>
+              <input type="number" class="form-control" id="delete-id" placeholder="Enter product ID">
+            </div>
+            <button type="submit" class="btn btn-primary">Delete</button>
+        </form>
+        <form id="update-inventory-form">
+            <div class="form-group">
+              <label for="update-id">ID</label>
+              <input type="number" class="form-control" id="update-id" placeholder="Enter product ID">
+            </div>
+            <div class="form-group">
+              <label for="update-quantity">Quantity</label>
+              <input type="number" class="form-control" id="update-quantity" placeholder="Enter product quantity">
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+        </div>
+      </main>
+    <%- include('./partials/footer') %>
+</body>
+</html>

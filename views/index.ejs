@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./partials/head') %>
+    <script src="/public/js/main.js"></script>
+    <script src="/public/js/data.js"></script>
+    <% {{title}} %>
+  <body>
+        <%- include('./partials/nav') %>
+      <main class="row">
+        <h1 id="featured">Featured Products</h1>
+        <div class="card-group col-sm-10 col-md-6 m-2 p-10" id="featProducts"></div>
+        <h1 id="new">New Products</h1>
+        <div class="card-group col-sm-10 col-md-6 m-1 p-10 d-flex" id="newProducts"></div>
+      </main>
+    <%- include('./partials/footer') %>
+  </body>
+</html>
