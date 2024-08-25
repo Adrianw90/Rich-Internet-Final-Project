@@ -1,0 +1,1 @@
+This project utilizes JS, NodeJS, HTML, CS, and Express to build a product page.
